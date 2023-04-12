@@ -269,6 +269,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1223745090}
   - component: {fileID: 1223745091}
+  - component: {fileID: 1223745093}
+  - component: {fileID: 1223745092}
   m_Layer: 0
   m_Name: Match3
   m_TagString: Untagged
@@ -308,6 +310,57 @@ MonoBehaviour:
   cellSize: 1
   originPosition: {x: 0, y: 0, z: 0}
   debug: 1
+  gemPrefab: {fileID: -4782820409617088117, guid: bf898771977609e42b47bc6513a1f71a,
+    type: 3}
+  gemTypes:
+  - {fileID: 11400000, guid: ddb348be1355d1b4992544042e341631, type: 2}
+  - {fileID: 11400000, guid: 988816cb155f94d449ebabe534522c2e, type: 2}
+  - {fileID: 11400000, guid: a43113f34d62ab243979fda98e9c9421, type: 2}
+  - {fileID: 11400000, guid: deeb612b7a044a64da9e4f601cc7efc2, type: 2}
+  ease: 5
+--- !u!114 &1223745092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223745089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cc98bb6e72848acaa2a7c02de9540a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1223745093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223745089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: d292e33c870b8fc4ab1c9319c5a7e40e,
+    type: 3}
+  m_NotificationBehavior: 3
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &1786589842
 GameObject:
   m_ObjectHideFlags: 0
