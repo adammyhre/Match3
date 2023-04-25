@@ -6,7 +6,8 @@ Welcome to the Match-3 game development repository for Unity! This repository co
 
 To use this repository, you'll need to have the following dependencies installed:
 
-- [DOTween (Free Version)](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676)
+- [DOTween (Free)](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676)
+- OR [DOTween Pro](https://assetstore.unity.com/packages/tools/visual-scripting/dotween-pro-32416?aid=1101lw3sv)
 - [Unity Input System](https://www.youtube.com/watch?v=wjJa6oYNg4Y)
 - TextMesh Pro
 
